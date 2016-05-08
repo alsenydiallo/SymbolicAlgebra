@@ -1,0 +1,38 @@
+Name: Alseny Diallo
+Email:	Alseny.diallo@wsu.edu
+
+Project Overview:
+-----------------
+Symbolic Algebra solver with JavaScript
+The program will be given a postfix expresion, and the solver will macth
+the expression with a target given expression to determin which function to 
+fire
+
+- leibniz.js :------------------------ (contains the functions implimentation)
+
+Production Rules:
+We define  a  set  of production  rules which  each  specify  a pattern
+and a transformation. Our  engine continually looks for a production whose pattern 
+matches the current expression or subexpression.  When a matching production is found, the corresponding transformation is "fired" to create a new expression. 
+
+- diffPowerRule
+- diffXRule
+- diffSumRule
+- diffSubtractRule
+- diffConstRule
+- diffProductRule
+- expt0Rule
+- expt1Rule
+- unityRule
+- times0Rule
+- foldBinopRule
+- foldCoeff1Rule
+
+Build and Run:
+--------------
+In order to run the JavaScript program, install (Node) and (npm)
+then type on the console:
+
+node leibniz.js
+or
+t/01-run.t
